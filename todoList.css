@@ -1,0 +1,115 @@
+.section-center{
+    background: var(--clr-white);
+    border-radius: var(--radius);
+    box-shadow: var(--transition);
+    padding: 2rem;
+}
+.section-center:hover{
+    box-shadow: var(--dark-shadow);
+}
+.alert{
+   margin-bottom: 1rem;
+   height: 1.25rem;
+   display:grid;
+align-items: center;
+font-size: 0.7rem;
+border-radius: 0.25rem;
+letter-spacing: var(--spacing);
+text-transform: capitalize;
+}
+.alert-danger{
+    color: red;
+    background-color: antiquewhite;
+
+}
+.alert-success{
+    color: green;
+    background-color: antiquewhite;
+
+}
+.grocery-form h3{
+    color: var(--clr-primary-1);
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+.form-control{
+    display: flex;
+    justify-content: center;
+}
+#grocery{
+    padding: 0.25rem;
+    padding-left: 1rem;
+    background: var(--clr-gry-10);
+    border-top-left-radius: var(--radius);
+    border-bottom-left-radius: var(--radius);
+    border-color: transparent;
+    font-size: 1rem;
+    flex: 1 0 auto;
+    color: var(--clr-grey-5);
+    background-color: black;
+    border: solid white;
+    color: white;
+}
+form.grocery-form {
+    display: flex;
+    flex-direction: column;
+   background-color: aqua;
+    align-items: center;
+    width: 33%;
+    margin-left: 33%;
+}
+.submit-btn{
+    background: var(--clr-primary-8);
+    border-color:transparent;
+    flex: 0 0 5rem;
+    display: grid;
+    align-items: center;
+    padding: 0.25rem;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    border-top-right-radius: var(--raidus);
+    border-bottom-right-radius: var(--raidus);
+    cursor: pointer;
+    content: var(--clr-primary-5);
+    transition:var(--transition);
+    font-size: 0.85rem;
+    background-color: black;
+    border: solid white;
+    color: white;
+
+}
+.submit-btn:hover{
+    background: var(--clr-primary-5);
+    color:var (--clr-white);
+}
+.grocery-container{
+    margin-top: 2rem;
+    transition: var(--transition);
+    visibility:hidden;
+   text-align: center;
+}
+.show-container{
+    visibility: visible;
+
+}
+.grocery-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    transition: var(--transition);
+    padding: 0.25rem 1rem;
+    border-radius: var(--radius);
+    text-transform: capitalize;
+
+
+}
+.grocery-list {
+    display: flex;
+    flex-direction: row;
+   background-color: aqua;
+ 
+    width: 33%;
+    margin-left: 33%;
+    
+}
